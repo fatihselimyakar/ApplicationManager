@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="start_process_button" layoutX="248.0" layoutY="157.0" mnemonicParsing="false" text="Start Process" />
+      <Label layoutX="133.0" layoutY="61.0" text="Directory:" />
+      <Label layoutX="133.0" layoutY="94.0" text="Executable:" />
+      <Label layoutX="133.0" layoutY="125.0" text="Arguments:" />
+      <TextField id="directory_box" layoutX="214.0" layoutY="56.0" prefHeight="25.0" prefWidth="217.0" />
+      <TextField id="executable_box" layoutX="215.0" layoutY="89.0" prefHeight="25.0" prefWidth="217.0" />
+      <TextField id="argument_box" layoutX="215.0" layoutY="120.0" prefHeight="25.0" prefWidth="217.0" />
+      <TableView id="table" layoutX="27.0" layoutY="186.0" prefHeight="200.0" prefWidth="553.0">
+        <columns>
+        </columns> 
+      </TableView>
+   </children>
+</Pane>
