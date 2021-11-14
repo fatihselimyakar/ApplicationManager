@@ -2,7 +2,7 @@
 
 2)Javadoc adlı klasörün içinde projenin javadoc .html dosyaları vardır. allclasses.html'e girerek görülebilir.
 
-3)KaynakKodu klasörünün içinde terminalden çalışmaya uygun hazırlanmış bir kod vardır. JavaFX'in lib dizini yer aldığı için sadece Javanın yüklü olması yeterlidir. Rapordaki komutlarla çalıştırılabilir.Font nedeniyle çalışmama ihtimaline karşın komutlar şu şekildedir:
+3)KaynakKodu klasörünün içinde terminalden çalışmaya uygun hazırlanmış bir kod vardır. JavaFX'in lib dizini yer aldığı için sadece Javanın yüklü olması yeterlidir. Rapordaki komutlarla çalıştırılabilir(Gerekli library'ler KaynakKodu/lib/ klasörü içine koyulmalıdır).Font nedeniyle çalışmama ihtimaline karşın komutlar şu şekildedir:
 
 Compile için : javac -cp lib/*:. Main.java
 Run için     : java --module-path lib --add-modules javafx.controls,javafx.fxml -cp .:* Main
